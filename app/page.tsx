@@ -39,7 +39,6 @@ export default function Home() {
 
         {/* Deployment Info */}
         <div className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800 pt-8">
-          <p>Ready to deploy? Deploy this app to Vercel with one click.</p>
           <p className="mt-2">Built with Next.js • Data from CoinGecko API</p>
         </div>
       </main>
