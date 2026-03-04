@@ -95,7 +95,7 @@ export async function GET() {
       currentPrice,
       predictedPrice: prediction.predictedPrice,
       change15m: {
-        amount: parseFloat(prediction.predictedPrice - currentPrice).toFixed(2),
+        amount: (prediction.predictedPrice - currentPrice).toFixed(2),
         percent: parseFloat(
           (((prediction.predictedPrice - currentPrice) / currentPrice) * 100).toFixed(2)
         ),
